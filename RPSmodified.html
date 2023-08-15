@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RPS Game</title>
+
+  <link rel  = "stylesheet" href = "styles/rps.css">
+
+</head>
+
+  <body>
+    <p class = "title">Rock Paper Scissors</p>
+    
+    <button class = 'move-button rock-button' onclick="
+      playgame('rock');
+      ">
+        <img class="moveimage" src = "images/rock-emoji.png">
+      </button>
+
+    <button class = 'move-button paper-button' onclick="
+      playgame('paper');
+    ">
+      <img class="moveimage" src = "images/paper-emoji.png">
+    </button>
+
+    <button class = 'move-button scissor-button'  onclick="
+      playgame('scissors');
+    ">
+      <img class="moveimage" src = "images/scissors-emoji.png">
+    </button>
+
+    <p  class = "js-result"></p>
+    <p  class="js-moves"></p>
+    <p  class = "js-score"></p>
+
+    <button class = 'reset-button' onclick ="
+      score.wins = 0;
+      score.loses = 0;
+      score.ties = 0;
+      localStorage.removeItem('score');
+      updatescore();
+    ">Reset score</button>
+
+    <button class = "autoplay-button" onclick="
+      autoplay();
+    ">Auto Play</button>
+
+
+    <script src="scripts/rps.js"></script>
+  </body>
+</html>

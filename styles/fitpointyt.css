@@ -1,0 +1,73 @@
+body {
+  font-family: Arial;
+  background-color: #0d0d0d;
+}
+p{
+  font-family: arial;
+  margin-bottom: 0px;
+}
+
+.videotitle{
+  font-size: 20px;
+  font-family: arial;
+  font-weight: bold;
+  width: 400px;
+  color: white;
+}
+
+.videostats{
+  color: rgb(155, 155, 155);
+  margin-top: 7px;
+  font-size: 15px;
+}
+
+.checkmark{
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+}
+
+.discription{
+  color: rgb(255, 255, 255);
+  width: 450px;
+  margin-top:30px;
+}
+
+.videolink{
+  text-align: center;
+  background-color: rgb(212, 0, 0);
+  color: white;
+  font-size: 18px;
+  padding: 13px;
+  cursor: pointer;
+}
+
+.linkone{
+  color: white;
+}
+  
+
+.thumbnail{
+  width: 470px;
+  height: 250px;
+  border-radius: 15px;
+}
+
+.thumbnail-row{
+  position: relative;
+}
+.time{
+  font-size: 17px;
+  background-color: black;
+  color: white;
+  padding-left: 2px;
+  padding-right: 5px;
+  border-radius: 5px;
+  position: absolute;
+  top: -11;
+  left: 416;
+}
+
+.videolinkrow{
+  text-align: center;
+}
